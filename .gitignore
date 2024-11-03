@@ -1,6 +1,8 @@
 # Ignore these directories
 **/__pycache__
 **/.pytest_cache
+**/htmlcov
 
 # Ignore these filetypes
 *:Zone.Identifier
+*.coverage
