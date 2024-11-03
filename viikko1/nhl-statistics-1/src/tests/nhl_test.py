@@ -1,6 +1,7 @@
 import unittest
-from statistics_service import StatisticsService
+from statistics_service import StatisticsService, SortBy
 from player import Player
+from enum import Enum
 
 class PlayerReaderStub:
     def get_players(self):
@@ -25,4 +26,6 @@ class TestStatisticsService(unittest.TestCase):
         self.stats.team("ABC")
     
     def test_top(self):
-        self.stats.top(3)
+        self.stats.top(4, SortBy.POINTS)
+        self.stats.top(4, SortBy.GOALS)
+        self.stats.top(4, SortBy.ASSISTS)
