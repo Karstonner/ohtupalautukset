@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-a
+aa
 =======
 Metodi 1: Viiteen sektoriin jaettu ympyrä, jotka kategorisoidaan sprintin työskentelytapojen tarpeiden mukaisesti. 
 Mitä pitäisi aloittaa, minkä voisi lopettaa, minkä työstämistä jatketaan, mitä voisi tehdä enemmän, ja mitä voisi tehdä vähemmän. 
